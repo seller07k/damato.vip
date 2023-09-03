@@ -207,6 +207,7 @@ p {
   background-position: center;
   border-radius: 40px;
   margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 .title-section-two {
   font-family: var(--title-font);
@@ -283,4 +284,43 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 80px;
   height: 100px;
+}
+/*
+|==========================================================================================
+| Section-three                        Section-three                      Section-three
+|==========================================================================================
+*/
+.section-three {
+  padding: 120px 0;
+  background-image: url(../images/image-eight.jpg);
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url(../images/image-eight.jpg);
+  background-position: center;
+  border-radius: 40px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 120px;
+}
+.title-section-three {
+  font-family: var(--title-font);
+  margin: 0 auto;
+  color: var(--fourth-green-color);
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.text-marinad-section-three {
+  color: var(--fourth-green-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
