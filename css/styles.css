@@ -292,12 +292,12 @@ p {
 */
 .section-three {
   padding: 120px 0;
-  background-image: url(../images/image-eight.jpg);
+  background-image: url(../images/grib-fon-threeeeee.jpeg);
   background-image: linear-gradient(
       rgba(20, 20, 20, 0.6),
       rgba(20, 20, 20, 0.6)
     ),
-    url(../images/image-eight.jpg);
+    url(../images/grib-fon-threeeeee.jpeg);
   background-position: center;
   border-radius: 40px;
   margin: 0 auto;
@@ -322,5 +322,62 @@ p {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-marinad-section-three-margin {
+  color: var(--fourth-green-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 72px;
+}
+.text-marinad-section-three-two {
+  color: var(--fourth-green-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.shadow-novus-three {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 80px;
+  margin-top: 20px;
+}
+.shadow-novus-three li {
+  display: flex;
+  align-items: center;
+}
+/*
+|==========================================================================================
+| Section-four                          Section-four                        Section-four
+|==========================================================================================
+*/
+.section-four {
+  padding: 40px 0;
+  background-image: url(../images/sec-four-dubl.jpeg);
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url(../images/sec-four-dubl.jpeg);
+  background-position: center;
+  border-radius: 40px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 120px;
+}
+.text-marinad-section-three-three {
+  color: var(--fourth-green-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 55px;
+  padding-right: 55px;
 }
