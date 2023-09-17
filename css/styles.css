@@ -64,7 +64,7 @@ p {
   align-items: center;
 }
 .menu {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
 }
 .logo-back-main {
@@ -74,7 +74,7 @@ p {
   margin-right: 400px;
 }
 .hero-list-navigation {
-  display: flex;
+  /*display: flex;*/
   gap: 40px;
 }
 .menu-main {
@@ -98,7 +98,7 @@ p {
   margin-left: auto;
 }
 .address-navig {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   gap: 20px;
 }
@@ -160,7 +160,7 @@ p {
   color: var(--third-white-color);
 }
 .hero-list-section-one {
-  display: flex;
+  /*display: flex;*/
   gap: 40px;
   justify-content: center;
 }
@@ -245,7 +245,7 @@ p {
   letter-spacing: 0.02em;
 }
 .shadow-novus li {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
 }
 .button-section-two {
@@ -276,14 +276,12 @@ p {
   background-color: var(--third-brown-color);
 }
 .seti-market {
-  display: flex;
+  /*display: flex;*/
   margin-top: 25px;
-  align-items: center;
-  justify-content: center;
-  gap: 172px;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 80px;
-  height: 100px;
+  /*height: 100px;*/
 }
 /*
 |==========================================================================================
